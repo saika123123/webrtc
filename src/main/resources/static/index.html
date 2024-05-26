@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>WebRTC Video Call</title>
+    <style>
+        video {
+            width: 300px;
+            height: 200px;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WebRTC Video Call</h1>
+    <div>
+        <video id="localVideo" autoplay muted></video>
+        <video id="remoteVideo" autoplay></video>
+    </div>
+    <button id="callButton">Start Call</button>
+    <script src="/js/webrtc.js"></script>
+</body>
+</html>
