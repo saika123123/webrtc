@@ -1,0 +1,7 @@
+services:
+- type: web
+  name: webrtc-springboot-app
+  env: java
+  plan: free
+  buildCommand: ./mvnw clean package
+  startCommand: java -jar target/*.jar
